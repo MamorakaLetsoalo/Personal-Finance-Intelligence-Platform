@@ -35,3 +35,17 @@ CREATE TABLE stg.debt (
                        HASHBYTES('SHA2_256', CONCAT(user_id,'|',debt_type,'|',balance,'|',interest_rate))
                        ,2) PERSISTED
 );
+
+CREATE TABLE stg.events (
+    stg_id          INT IDENTITY(1,1) PRIMARY KEY,
+    event_id        NVARCHAR(50)    NOT NULL,   -- business key from source
+    user_id         INT             NOT NULL,
+    event_type      NVARCHAR(50)    NOT NULL,
+    amount          DECIMAL(18,2)   NOT NULL,
+    interest_rate   DECIMAL(5,2)    NULL,
+    event_timestamp DATETIME2       NOT NULL,
+    source_file     NVARCHAR(255)   NULL,
+    load_date       DATETIME2       NOT NULL DEFAULT SYSUTCDATETIME(),
+    batch_id        UNIQUEIDENTIFIER NOT NULL
+);
+GO
