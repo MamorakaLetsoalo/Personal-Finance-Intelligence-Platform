@@ -1,0 +1,101 @@
+user_id,first_name,last_name,account_type,institution,current_balance,monthly_contribution,opened_date
+1005,Aisha,Osei,Retirement Annuity,Allan Gray,9782.15,402.15,2023-01-08
+1013,Ruan,Botha,Tax-Free Savings,Allan Gray,8736.95,150.76,2017-10-19
+1013,Ruan,Botha,Retirement Annuity,Discovery,1217.4,417.84,2019-07-09
+1018,Zanele,Mokoena,Emergency Fund,EasyEquities,350495.92,5073.24,2023-08-22
+1009,Sipho,Khumalo,Share Portfolio,Allan Gray,4145.24,174.3,2021-03-22
+1008,Chen,Wang,Emergency Fund,Old Mutual,529588.63,5243.52,2017-03-18
+1008,Chen,Wang,Share Portfolio,EasyEquities,301652.73,6148.24,2020-12-01
+1011,David,Brown,Emergency Fund,Ninety One,308687.25,1709.5,2018-11-28
+1009,Sipho,Khumalo,Emergency Fund,Allan Gray,1842.91,255.39,2021-06-12
+1012,Amara,Diallo,Money Market,Allan Gray,3832.75,212.43,2018-08-18
+1019,Luke,Taylor,Emergency Fund,Coronation,7137.42,391.98,2015-08-26
+1012,Amara,Diallo,Emergency Fund,Discovery,9862.14,371.72,2016-07-09
+1008,Chen,Wang,Unit Trust,Sanlam,402263.38,8185.61,2023-04-09
+1010,Natasha,Ivanova,Share Portfolio,Ninety One,67982.3,5698.12,2016-11-19
+1013,Ruan,Botha,Unit Trust,Coronation,1889.31,228.84,2023-07-16
+1002,Priya,Naidoo,Money Market,Allan Gray,3919.22,207.91,2015-12-24
+1013,Ruan,Botha,Money Market,PSG Wealth,6507.82,351.13,2020-01-26
+1018,Zanele,Mokoena,Unit Trust,Coronation,405393.38,12405.62,2020-07-20
+1002,Priya,Naidoo,Tax-Free Savings,PSG Wealth,1198.31,207.19,2022-12-25
+1004,Marco,Rossi,Share Portfolio,PSG Wealth,11905.6,853.2,2019-02-04
+1017,Tariq,Al-Farsi,Share Portfolio,Ninety One,567703.58,3321.89,2017-04-21
+1012,Amara,Diallo,Fixed Deposit,Sanlam,2462.89,182.78,2021-05-24
+1006,James,Williams,Tax-Free Savings,Discovery,2066.19,974.74,2016-03-23
+1005,Aisha,Osei,Fixed Deposit,Discovery,7079.8,838.15,2023-12-04
+1011,David,Brown,Share Portfolio,Discovery,304525.88,2065.39,2023-09-12
+1002,Priya,Naidoo,Emergency Fund,Discovery,749.49,241.57,2021-09-11
+1003,Leilani,Petersen,Share Portfolio,Coronation,76878.87,1984.52,2020-02-19
+1017,Tariq,Al-Farsi,Unit Trust,EasyEquities,461547.86,14038.73,2017-06-08
+1003,Leilani,Petersen,Fixed Deposit,Allan Gray,64927.02,2213.29,2016-07-22
+1016,Elena,Popescu,Money Market,Discovery,3054.02,506.46,2016-02-27
+1003,Leilani,Petersen,Retirement Annuity,Ninety One,24228.85,1189.9,2020-06-06
+1011,David,Brown,Retirement Annuity,Coronation,262876.27,5748.87,2018-05-04
+1012,Amara,Diallo,Retirement Annuity,Ninety One,9800.5,217.05,2020-10-08
+1004,Marco,Rossi,Fixed Deposit,Allan Gray,10707.35,852.38,2018-05-15
+1007,Fatima,Hassan,Unit Trust,Coronation,3462.96,282.13,2020-11-04
+1007,Fatima,Hassan,Money Market,Ninety One,7119.25,227.56,2015-07-03
+1020,Nadia,Kovacs,Money Market,Ninety One,254528.19,11997.32,2023-03-22
+1001,Thabo,Dlamini,Fixed Deposit,PSG Wealth,6249.1,345.55,2023-09-04
+1013,Ruan,Botha,Emergency Fund,Old Mutual,5398.33,211.29,2020-02-06
+1003,Leilani,Petersen,Money Market,Allan Gray,35925.68,1171.02,2015-09-17
+1015,Kofi,Mensah,Unit Trust,Coronation,1019.6,966.43,2022-09-21
+1014,Yuki,Tanaka,Retirement Annuity,EasyEquities,5699.45,152.24,2023-11-03
+1010,Natasha,Ivanova,Emergency Fund,Coronation,360968.79,12550.57,2018-04-11
+1020,Nadia,Kovacs,Emergency Fund,Discovery,493909.32,6263.77,2017-12-13
+1014,Yuki,Tanaka,Emergency Fund,Sanlam,3765.53,373.02,2015-07-08
+1005,Aisha,Osei,Emergency Fund,EasyEquities,13270.71,501.59,2021-09-15
+1002,Priya,Naidoo,Share Portfolio,PSG Wealth,6181.42,229.77,2015-02-20
+1014,Yuki,Tanaka,Fixed Deposit,PSG Wealth,5577.03,187.13,2017-05-17
+1010,Natasha,Ivanova,Retirement Annuity,Allan Gray,440578.31,8326.22,2015-12-05
+1018,Zanele,Mokoena,Tax-Free Savings,PSG Wealth,334762.02,9114.27,2018-04-25
+1011,David,Brown,Unit Trust,Ninety One,188565.97,5222.64,2023-09-10
+1004,Marco,Rossi,Money Market,Coronation,10299.29,957.82,2020-05-16
+1020,Nadia,Kovacs,Unit Trust,Sanlam,56965.73,4646.54,2016-11-02
+1007,Fatima,Hassan,Share Portfolio,PSG Wealth,2157.31,164.05,2020-03-07
+1009,Sipho,Khumalo,Unit Trust,Old Mutual,4229.17,145.69,2020-02-19
+1004,Marco,Rossi,Tax-Free Savings,PSG Wealth,4102.2,443.73,2018-09-22
+1013,Ruan,Botha,Share Portfolio,Sanlam,9527.41,230.92,2023-09-06
+1009,Sipho,Khumalo,Tax-Free Savings,PSG Wealth,9676.21,225.36,2021-11-08
+1007,Fatima,Hassan,Fixed Deposit,EasyEquities,5087.8,290.47,2023-02-05
+1015,Kofi,Mensah,Emergency Fund,Coronation,12493.91,444.41,2019-10-25
+1015,Kofi,Mensah,Money Market,Discovery,26358.28,901.28,2022-05-05
+1016,Elena,Popescu,Share Portfolio,Sanlam,29795.26,314.28,2021-11-04
+1015,Kofi,Mensah,Fixed Deposit,Ninety One,27372.81,905.72,2016-10-13
+1019,Luke,Taylor,Money Market,Coronation,1294.17,131.61,2016-09-28
+1001,Thabo,Dlamini,Money Market,EasyEquities,3600.58,353.65,2020-07-02
+1008,Chen,Wang,Money Market,Ninety One,52447.52,5577.55,2023-06-09
+1020,Nadia,Kovacs,Fixed Deposit,Ninety One,323027.11,7160.46,2016-11-14
+1020,Nadia,Kovacs,Share Portfolio,Discovery,441777.79,9919.82,2020-07-25
+1015,Kofi,Mensah,Tax-Free Savings,EasyEquities,4602.88,886.12,2020-02-13
+1012,Amara,Diallo,Tax-Free Savings,Old Mutual,8212.94,183.95,2022-12-21
+1010,Natasha,Ivanova,Tax-Free Savings,Allan Gray,141776.04,6466.02,2018-07-12
+1012,Amara,Diallo,Unit Trust,Allan Gray,6297.49,271.27,2023-10-20
+1017,Tariq,Al-Farsi,Fixed Deposit,Discovery,97678.42,4205.58,2021-08-11
+1015,Kofi,Mensah,Share Portfolio,Sanlam,20009.07,762.96,2017-05-24
+1006,James,Williams,Money Market,Discovery,10616.3,836.98,2015-02-13
+1011,David,Brown,Fixed Deposit,Sanlam,199225.04,7940.81,2023-07-10
+1006,James,Williams,Fixed Deposit,PSG Wealth,19763.0,235.44,2023-06-10
+1004,Marco,Rossi,Retirement Annuity,Old Mutual,10111.32,971.66,2018-04-08
+1014,Yuki,Tanaka,Share Portfolio,EasyEquities,1445.96,413.56,2015-03-08
+1018,Zanele,Mokoena,Retirement Annuity,PSG Wealth,122590.58,13329.77,2019-02-05
+1019,Luke,Taylor,Fixed Deposit,Allan Gray,7167.2,132.97,2018-02-10
+1017,Tariq,Al-Farsi,Tax-Free Savings,Coronation,407511.12,8281.19,2022-01-16
+1002,Priya,Naidoo,Retirement Annuity,PSG Wealth,2280.22,279.54,2016-02-28
+1016,Elena,Popescu,Tax-Free Savings,Coronation,14827.39,306.16,2020-10-28
+1006,James,Williams,Retirement Annuity,Coronation,3859.59,377.6,2019-12-31
+1006,James,Williams,Unit Trust,Old Mutual,23299.67,726.08,2016-11-12
+1009,Sipho,Khumalo,Money Market,Old Mutual,6106.6,368.84,2016-04-27
+1002,Priya,Naidoo,Unit Trust,PSG Wealth,7946.96,161.71,2018-07-21
+1008,Chen,Wang,Fixed Deposit,PSG Wealth,387758.82,5367.89,2019-05-12
+1018,Zanele,Mokoena,Fixed Deposit,Discovery,262237.07,5892.98,2020-12-03
+1010,Natasha,Ivanova,Money Market,EasyEquities,327990.91,8939.64,2019-08-30
+1016,Elena,Popescu,Unit Trust,Old Mutual,20719.5,207.43,2016-05-08
+1017,Tariq,Al-Farsi,Money Market,PSG Wealth,451505.03,7218.43,2018-07-12
+1001,Thabo,Dlamini,Share Portfolio,Coronation,7835.59,218.15,2022-12-30
+1013,Ruan,Botha,Fixed Deposit,Allan Gray,8513.78,257.08,2021-06-23
+1010,Natasha,Ivanova,Unit Trust,Old Mutual,513091.87,10432.92,2015-02-09
+1003,Leilani,Petersen,Unit Trust,Coronation,108630.65,2763.02,2021-05-31
+1007,Fatima,Hassan,Emergency Fund,Coronation,1538.95,420.02,2020-10-14
+1011,David,Brown,Money Market,PSG Wealth,257263.48,5051.3,2016-02-24
+1002,Priya,Naidoo,Fixed Deposit,Ninety One,3926.65,136.61,2019-12-27
