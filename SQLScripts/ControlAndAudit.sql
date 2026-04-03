@@ -34,3 +34,22 @@ CREATE TABLE ctrl.etl_error_log (
     error_ts        DATETIME2       NOT NULL DEFAULT SYSUTCDATETIME()
 );
 GO
+
+-- Helper: start a pipeline run(stored procedure)
+CREATE OR ALTER PROCEDURE ctrl.usp_pipeline_start
+    @pipeline_name NVARCHAR(100),
+    @batch_id      UNIQUEIDENTIFIER OUTPUT
+AS
+BEGIN
+    SET @batch_id = NEWID();
+    UPDATE ctrl.etl_pipeline_control
+    SET status = 'RUNNING', current_run_start = SYSUTCDATETIME(), batch_id = @batch_id,
+        rows_extracted = 0, rows_inserted = 0, rows_updated = 0, rows_rejected = 0,
+        dq_pass_flag = 1, error_message = NULL, updated_at = SYSUTCDATETIME()
+    WHERE pipeline_name = @pipeline_name;
+
+    IF @@ROWCOUNT = 0
+        INSERT INTO ctrl.etl_pipeline_control (pipeline_name, batch_id, status, current_run_start)
+        VALUES (@pipeline_name, @batch_id, 'RUNNING', SYSUTCDATETIME());
+END;
+GO
