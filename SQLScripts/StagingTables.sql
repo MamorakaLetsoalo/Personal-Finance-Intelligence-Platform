@@ -48,4 +48,42 @@ CREATE INDEX IX_stg_expenses_user_month
     ON stg.expenses (user_id, expense_month);
 GO
 
+-- stg.savings
+-- Source: savings_investments.csv
+-- Columns: user_id, first_name, last_name, account_type, institution,
+--   current_balance, monthly_contribution, opened_date
+CREATE TABLE stg.savings (
+    stg_id                  INT IDENTITY(1,1)    PRIMARY KEY,
+    user_id                 INT                  NOT NULL,
+    first_name              NVARCHAR(100)        NULL,
+    last_name               NVARCHAR(100)        NULL,
+    account_type            NVARCHAR(100)        NOT NULL,
+    institution             NVARCHAR(100)        NOT NULL,
+    current_balance         DECIMAL(18,2)        NOT NULL,
+    monthly_contribution    DECIMAL(10,2)        NOT NULL,
+    opened_date             DATE                 NOT NULL,
+    -- Pipeline metadata
+    source_file             NVARCHAR(255)        NULL,
+    load_date               DATETIME2            NOT NULL DEFAULT SYSUTCDATETIME(),
+    batch_id                UNIQUEIDENTIFIER     NOT NULL,
+    -- Change detection fingerprint
+    row_hash                AS CONVERT(
+                                   NVARCHAR(64),
+                                   HASHBYTES(
+                                       'SHA2_256',
+                                       CONCAT(
+                                           user_id,       '|',
+                                           account_type,  '|',
+                                           institution,   '|',
+                                           current_balance, '|',
+                                           monthly_contribution
+                                       )
+                                   ), 2
+                               ) PERSISTED
+);
+
+CREATE INDEX IX_stg_savings_user_acct
+    ON stg.savings (user_id, account_type);
+GO
+
 
