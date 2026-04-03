@@ -53,3 +53,27 @@ BEGIN
         VALUES (@pipeline_name, @batch_id, 'RUNNING', SYSUTCDATETIME());
 END;
 GO
+
+-- Helper: close a pipeline run
+CREATE OR ALTER PROCEDURE ctrl.usp_pipeline_finish
+    @pipeline_name  NVARCHAR(100),
+    @batch_id       UNIQUEIDENTIFIER,
+    @status         NVARCHAR(20),
+    @rows_inserted  INT = 0,
+    @rows_updated   INT = 0,
+    @rows_rejected  INT = 0,
+    @error_message  NVARCHAR(MAX) = NULL
+AS
+BEGIN
+    UPDATE ctrl.etl_pipeline_control
+    SET status          = @status,
+        rows_inserted   = @rows_inserted,
+        rows_updated    = @rows_updated,
+        rows_rejected   = @rows_rejected,
+        dq_pass_flag    = CASE WHEN @status = 'SUCCESS' THEN 1 ELSE 0 END,
+        error_message   = @error_message,
+        last_load_ts    = CASE WHEN @status = 'SUCCESS' THEN SYSUTCDATETIME() ELSE last_load_ts END,
+        updated_at      = SYSUTCDATETIME()
+    WHERE pipeline_name = @pipeline_name AND batch_id = @batch_id;
+END;
+GO
