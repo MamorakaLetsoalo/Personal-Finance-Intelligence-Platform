@@ -20,7 +20,7 @@ What changed in their financial profile, and when?
 Are they on track for financial independence or retirement?
 What actions should they take next?
 
-Business Value
+# Business Value
 
 This platform bridges the gap between data engineering and financial decision-making.
 
@@ -31,13 +31,13 @@ Time-aware analytics (historical state tracking)
 Auditability of all financial decisions
 Secure, user-level data access
 
-Designed for:
+# Designed for:
 Retail banking analytics
 Wealth management platforms
 Financial advisory tools
 Personal finance applications
 
-Architecture Overview
+# Architecture Overview
 
 The solution is structured using a layered enterprise data architecture, ensuring scalability, traceability, and maintainability.
 
