@@ -23,3 +23,15 @@ CREATE TABLE ods.debt (
     ods_load_date       DATETIME2       NOT NULL DEFAULT SYSUTCDATETIME(),
     batch_id            UNIQUEIDENTIFIER NOT NULL
 );
+
+-- Data quality log (one row per failed rule per batch)
+CREATE TABLE ods.dq_failures (
+    dq_id           INT IDENTITY(1,1) PRIMARY KEY,
+    table_name      NVARCHAR(100)   NOT NULL,
+    rule_name       NVARCHAR(100)   NOT NULL,
+    rule_description NVARCHAR(500)  NOT NULL,
+    failed_count    INT             NOT NULL,
+    batch_id        UNIQUEIDENTIFIER NOT NULL,
+    checked_at      DATETIME2       NOT NULL DEFAULT SYSUTCDATETIME()
+);
+GO
