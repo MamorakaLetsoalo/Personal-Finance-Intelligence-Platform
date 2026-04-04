@@ -1,0 +1,101 @@
+user_id,first_name,last_name,salary_amount,effective_date,change_reason
+1006,James,Williams,43840.86,2027-03-05,Role change
+1020,Nadia,Kovacs,311133.36,2030-11-24,Market adjustment
+1020,Nadia,Kovacs,228241.56,2026-05-15,Role change
+1013,Ruan,Botha,14281.36,2022-11-03,Performance bonus
+1013,Ruan,Botha,18326.14,2026-12-10,Annual review
+1017,Tariq,Al-Farsi,155003.89,2024-08-18,Market adjustment
+1007,Fatima,Hassan,18359.16,2028-10-14,Performance bonus
+1018,Zanele,Mokoena,372900.14,2028-06-12,Performance bonus
+1003,Leilani,Petersen,47921.63,2024-02-06,Performance bonus
+1004,Marco,Rossi,32821.18,2027-12-04,Market adjustment
+1016,Elena,Popescu,28905.55,2022-07-24,Annual contract
+1010,Natasha,Ivanova,221240.44,2025-05-05,Role change
+1007,Fatima,Hassan,13666.36,2025-03-01,Performance bonus
+1007,Fatima,Hassan,12490.21,2024-06-10,Promotion
+1016,Elena,Popescu,33426.71,2024-02-09,Annual contract
+1013,Ruan,Botha,20603.62,2028-02-07,Promotion
+1008,Chen,Wang,400656.85,2028-11-22,Performance bonus
+1014,Yuki,Tanaka,11862.88,2026-07-01,Annual contract
+1017,Tariq,Al-Farsi,142158.9,2023-12-16,Performance bonus
+1007,Fatima,Hassan,15926.41,2026-06-14,Promotion
+1006,James,Williams,26270.27,2023-06-25,Role change
+1008,Chen,Wang,348950.27,2026-03-25,Annual contract
+1006,James,Williams,48177.82,2027-07-08,Performance bonus
+1012,Amara,Diallo,25553.62,2026-08-30,Performance bonus
+1014,Yuki,Tanaka,10749.51,2024-11-16,Role change
+1009,Sipho,Khumalo,18236.24,2028-02-25,Annual contract
+1011,David,Brown,85478.47,2023-07-06,Role change
+1002,Priya,Naidoo,16419.6,2030-04-09,Performance bonus
+1009,Sipho,Khumalo,12833.57,2023-05-04,Promotion
+1003,Leilani,Petersen,57240.66,2026-06-22,Annual contract
+1015,Kofi,Mensah,51992.92,2029-08-09,Annual contract
+1011,David,Brown,121946.37,2028-11-18,Annual contract
+1004,Marco,Rossi,31425.92,2026-10-22,Performance bonus
+1014,Yuki,Tanaka,9727.06,2023-11-24,Annual contract
+1007,Fatima,Hassan,17813.23,2027-08-19,Promotion
+1019,Luke,Taylor,26741.89,2027-02-10,Promotion
+1015,Kofi,Mensah,41679.57,2025-05-05,Market adjustment
+1014,Yuki,Tanaka,11215.27,2025-03-21,Annual contract
+1005,Aisha,Osei,47682.04,2028-06-25,Promotion
+1013,Ruan,Botha,16768.01,2024-11-01,Market adjustment
+1014,Yuki,Tanaka,13178.51,2026-12-15,Performance bonus
+1020,Nadia,Kovacs,333070.22,2032-02-11,Promotion
+1002,Priya,Naidoo,15059.49,2029-02-14,Promotion
+1010,Natasha,Ivanova,209368.47,2025-02-05,Promotion
+1004,Marco,Rossi,25158.85,2024-11-07,Annual review
+1002,Priya,Naidoo,9707.63,2023-06-11,Annual review
+1006,James,Williams,36611.5,2026-08-19,Role change
+1008,Chen,Wang,250940.17,2022-08-27,Performance bonus
+1005,Aisha,Osei,32832.06,2026-01-21,Performance bonus
+1003,Leilani,Petersen,80415.22,2030-01-15,Market adjustment
+1005,Aisha,Osei,22274.79,2022-10-11,Annual contract
+1003,Leilani,Petersen,51761.37,2025-03-22,Annual review
+1009,Sipho,Khumalo,19053.54,2028-04-26,Market adjustment
+1012,Amara,Diallo,17960.96,2022-02-07,Annual contract
+1020,Nadia,Kovacs,280111.38,2029-09-10,Market adjustment
+1018,Zanele,Mokoena,238336.76,2022-11-12,Annual contract
+1003,Leilani,Petersen,64113.26,2026-12-08,Promotion
+1007,Fatima,Hassan,14875.68,2025-12-10,Role change
+1001,Thabo,Dlamini,9988.38,2022-11-29,Annual contract
+1010,Natasha,Ivanova,191264.04,2024-09-19,Performance bonus
+1013,Ruan,Botha,18948.64,2027-07-28,Promotion
+1009,Sipho,Khumalo,17380.47,2027-06-05,Market adjustment
+1001,Thabo,Dlamini,13709.58,2025-02-25,Promotion
+1015,Kofi,Mensah,46454.5,2027-12-19,Promotion
+1013,Ruan,Botha,22596.21,2029-01-14,Performance bonus
+1015,Kofi,Mensah,34506.16,2022-08-31,Market adjustment
+1015,Kofi,Mensah,43764.34,2026-08-26,Market adjustment
+1018,Zanele,Mokoena,257694.35,2023-08-06,Role change
+1019,Luke,Taylor,19832.29,2024-10-29,Role change
+1017,Tariq,Al-Farsi,215417.0,2028-09-18,Role change
+1016,Elena,Popescu,45698.22,2026-07-18,Market adjustment
+1001,Thabo,Dlamini,17930.69,2028-04-15,Market adjustment
+1011,David,Brown,100481.88,2026-05-14,Annual review
+1006,James,Williams,24357.16,2022-03-24,Annual contract
+1017,Tariq,Al-Farsi,160630.17,2025-09-22,Annual review
+1020,Nadia,Kovacs,209380.18,2025-06-03,Market adjustment
+1009,Sipho,Khumalo,11393.03,2022-02-25,Annual contract
+1011,David,Brown,78992.94,2023-04-17,Promotion
+1008,Chen,Wang,316458.03,2025-10-19,Market adjustment
+1002,Priya,Naidoo,10861.7,2025-01-27,Annual review
+1019,Luke,Taylor,14727.96,2022-04-26,Annual contract
+1019,Luke,Taylor,22321.87,2026-06-21,Promotion
+1010,Natasha,Ivanova,170834.3,2023-10-11,Performance bonus
+1018,Zanele,Mokoena,346559.65,2027-03-04,Promotion
+1008,Chen,Wang,387154.67,2027-10-25,Performance bonus
+1016,Elena,Popescu,49562.41,2027-06-04,Annual contract
+1005,Aisha,Osei,39993.76,2027-06-18,Annual contract
+1012,Amara,Diallo,29104.75,2028-11-07,Annual contract
+1019,Luke,Taylor,18581.74,2023-10-13,Market adjustment
+1003,Leilani,Petersen,71305.63,2027-11-23,Performance bonus
+1008,Chen,Wang,269431.27,2023-07-29,Promotion
+1002,Priya,Naidoo,12150.66,2026-06-08,Promotion
+1019,Luke,Taylor,29479.45,2028-04-01,Role change
+1012,Amara,Diallo,23372.53,2025-08-22,Role change
+1018,Zanele,Mokoena,419557.88,2029-10-12,Role change
+1004,Marco,Rossi,20429.67,2022-03-13,Annual contract
+1020,Nadia,Kovacs,241606.66,2027-08-04,Market adjustment
+1008,Chen,Wang,416225.42,2029-08-15,Performance bonus
+1012,Amara,Diallo,22383.25,2024-04-23,Annual review
+1003,Leilani,Petersen,60137.86,2026-09-06,Annual review
