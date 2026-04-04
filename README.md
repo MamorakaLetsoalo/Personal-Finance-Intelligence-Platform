@@ -1,50 +1,60 @@
 # Personal-Finance-Intelligence-Platform
 
 # End to End Data Engineering Project
-Microsoft SQL Server · SSIS · Power BI
+Stack:  SQL Server 2019+   |   SSIS (Visual Studio)   |   Power BI Desktop   |   Python 3   |   SQL Server Agent
 
 # Overview
 
-This project delivers a production-grade data platform built on the Microsoft BI stack to track, analyse, and optimise personal financial behaviour over time.
+This project is an enterprise-grade financial intelligence platform designed to transform raw personal finance data into decision-ready insights.
 
-The platform leverages event sourcing to capture financial activities, implements SCD Type 2 to preserve historical financial profiles, and produces actionable insights such as:
+Built on the Microsoft BI stack, the platform simulates how modern banks and fintechs:
 
-Financial Freedom Number
-Retirement Targets
-Savings Recommendations
-Investment Guidance
+Track customer financial behaviour over time
+Maintain historical context for every financial decision
+Generate personalised, data-driven financial guidance
 
-It is designed to mirror real-world enterprise systems, with a strong focus on scalability, auditability, and data integrity.
+Rather than simply reporting on transactions, this solution answers critical business questions:
 
-# Architecture
+How financially healthy is this user over time?
+What changed in their financial profile, and when?
+Are they on track for financial independence or retirement?
+What actions should they take next?
 
-The platform is structured across six layers, each implemented in a dedicated SQL Server schema:
+Business Value
 
-Layer
-Schema
-Purpose
-Staging
-stg
-Raw CSV ingestion with load_date, batch_id, SHA2_256 row hash
-ODS
-ods
-Cleaned, deduplicated, validated data with debt tier classification
-Warehouse
-dw
-SCD Type 2 dimension, event fact, derived metrics fact
-Control
-ctrl
-Pipeline watermarks, batch tracking, error logging
-Security
-sec
-Row-level security — each user sees only their own data
-Analytics
-Power BI
-Five-page dashboard with DirectQuery or Import mode
+This platform bridges the gap between data engineering and financial decision-making.
 
-# Tech Stack
-SQL Server 2019+ — Data warehouse & business logic layer
-SSIS — ETL orchestration and pipeline automation
+Enables:
+Customer financial health scoring
+Personalised financial recommendations
+Time-aware analytics (historical state tracking)
+Auditability of all financial decisions
+Secure, user-level data access
+
+Designed for:
+Retail banking analytics
+Wealth management platforms
+Financial advisory tools
+Personal finance applications
+
+Architecture Overview
+
+The solution is structured using a layered enterprise data architecture, ensuring scalability, traceability, and maintainability.
+
+Layer	Schema	Business Purpose
+Staging	stg	Raw ingestion with full traceability (batch_id, load_date, row hash)
+ODS	ods	Trusted, validated, and enriched operational data
+Warehouse	dw	Analytical layer with historical tracking and metrics
+Control	ctrl	Pipeline orchestration, audit trails, and recovery
+Security	sec	Data access enforcement at user level
+Analytics	Power BI	Insight delivery and decision support
+
+# Execution Flow
+Build schemas and data model (SQL scripts)
+Generate synthetic financial data
+Execute SSIS pipelines
+Load curated data into warehouse
+Analyse via dashboard
 
 ![alt text](image-1.png)
 
@@ -52,13 +62,8 @@ SSIS — ETL orchestration and pipeline automation
 
 ![alt text](image-3.png)
 
-
-Visualisation — Analytical dashboard and reporting
-
 ![alt text](image-4.png)
 
-Python 3 — Synthetic data generation
-SQL Server Agent — Job scheduling and automation
 
 # Key Features
 1. Slowly Changing Dimensions (SCD Type 2)
@@ -93,7 +98,7 @@ Retirement Number = Annual Expenses × 25
 Net Worth = Savings − Debt
 Freedom % = Savings ÷ Freedom Number × 100
 
-Data Quality Framework
+5.Data Quality Framework
 Validation rules applied during ODS load
 Failed records routed to ods.dq_failures
 Quality checks include:
@@ -103,7 +108,7 @@ Invalid interest rates
 Orphaned records
 Downstream processes controlled via dq_pass_flag
 
-Security
+6.Security
 Implemented using row-level security (RLS)
 Enforced directly in SQL Server
 Context-aware filtering via sp_set_session_context
